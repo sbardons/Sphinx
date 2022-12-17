@@ -19,6 +19,15 @@ class TheOffice:
         self.sales[employee] += 1
 
     def get_employee_sales(self, employee: Employee) -> int:
+        """Method that returns the number of sales given an employee.
+
+        Args:
+            employee (Employee): The employee whose sales number we are interested in.
+
+        Returns:
+            int: The total number of sales the employee has made.
+        """
+
         return self.sales[employee]
 
     def _fire_employee(self, employee: Employee) -> None:
