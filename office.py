@@ -5,13 +5,13 @@ from employee import Employee
 
 
 class TheOffice:
-     """A class representing an office that holds information about its employees and their sales.
-    It exposes methods make and view sales for each employee.
-    Args:
-        regional_manager (str): The name of the employee.
-        employees (Set[Employee]): A set of employee objects.
-        location (str): The name of the region the office is located.
-    """
+    """A class representing an office that holds information about its employees and their sales.
+   It exposes methods make and view sales for each employee.
+   Args:
+       regional_manager (str): The name of the employee.
+       employees (Set[Employee]): A set of employee objects.
+       location (str): The name of the region the office is located.
+   """
 
     def __init__(self, regional_manager: str, employees: Set[Employee], location: str):
         self.regional_manager = regional_manager
